@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+h1{
+    font-family: 'Bree Serif', serif;
+    color:green;
+}
+h3{
+    font-family: 'Bree Serif', serif;
+    color: red;
+}
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;   
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+a.active{
+    background-color: #4CAF50;
+}
+li a:hover{
+    background-color: black;
+}
